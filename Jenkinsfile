@@ -16,6 +16,7 @@ pipeline{
 					mvn --version
 					echo $JAVA_HOME
                     bat 'mvn clean install'
+					
                 }
 
             }
